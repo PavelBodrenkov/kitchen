@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Hungry People</title>
+</head>
+
+<body>
+  <div class="page">
+    <!-- Header -->
+    <header class="header section section_color_white" id="home">
+      <div class="container">
+        <div class="header__nav">
+          <nav>
+            <ul class="menu">
+              <li class="menu__item"><a href="#home" class="menu__link menu__link_active">Home</a></li>
+              <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+              <li class="menu__item"><a href="#team" class="menu__link">Team</a></li>
+              <li class="menu__item"><a href="#booking" class="menu__link">Booking</a></li>
+            </ul>
+          </nav>
+          <img src="./images/logo.svg" alt="Hungry People" class="logo rotation"></img>
+          <nav>
+            <ul class="menu">
+              <li class="menu__item"><a href="#menu" class="menu__link">Menu</a></li>
+              <li class="menu__item"><a href="#galerie" class="menu__link">Galerie</a></li>
+              <li class="menu__item"><a href="#events" class="menu__link">Events</a></li>
+              <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__content">
+          <p class="header__date">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+          <div class="header__description">
+            <p class="section__subtitle header__subtitle">Restaurant</p>
+            <h1 class="section__title header__title">Hungry People</h1>
+            <div class="header__buttons">
+              <a href="#" class="button button_color_yellow header__button">Book Table</a>
+              <a href="#" class="button">Explore</a>
+            </div>
+          </div>
+          <nav>
+            <ul class="header__social">
+              <li><a href="#" class="header__social-link"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#" class="header__social-link"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#" class="header__social-link"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Main -->
+    <main class="content">
+      <!-- Section About Us -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section__content">
+            <div class="section__description section__description_margin_right">
+              <h2 class="section__title">About us</h2>
+              <p class="section__heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+              <p class="section__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            </div>
+            <img src="./images/about-us-image.jpg" alt="About us" class="section__image">
+          </div>
+        </div>
+      </section>
+      <!-- End Section About Us -->
+      <!-- Section Team -->
+      <section class="team section section_color_white" id="team">
+        <div class="container">
+          <p class="section__subtitle">Our team</p>
+          <div class="section__content section__content_reverse">
+            <div class="section__description section__description_margin_left">
+              <h2 class="section__title">Master Chef</h2>
+              <p class="section__heading section__heading_color_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+              <p class="section__text section__text_color_white">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            </div>
+            <img src="./images/team-image.jpg" alt="Master Chef" class="section__image">
+          </div>
+        </div>
+      </section>
+      <!-- End Section Team -->
+      <!-- Section Book A Table -->
+      <section class="book-a-table section" id="booking">
+        <div class="container">
+          <div class="section__content">
+            <div class="section__description section__description_margin_right section__description_align_right">
+              <h2 class="section__title form__title">Book a table</h2>
+              <form action="#" class="form section__form">
+                <div class="form__main-container">
+                  <fieldset class="form__input-container">
+                    <input type="text"
+                           name="name"
+                           placeholder="Name"
+                           class="form__item form__item_count_double"
+                           autocomplete="off">
+                    <input type="email"
+                           name="email"
+                           placeholder="Email"
+                           class="form__item form__item_count_double">
+                    <input type="tel"
+                           name="phone"
+                           placeholder="Phone"
+                           class="form__item form__item_count_double">
+                    <select name="people"
+                            class="form__item form__item_count_double">
+                      <option>People</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </fieldset>
+                  <fieldset class="form__input-container">
+                    <input type="text"
+                           name="date"
+                           placeholder="Date (mm/dd)"
+                           class="form__item form__item_count_double"
+                           onfocus="(this.type='date')"
+                           onblur="(this.type='text')">
+                    <select name="time"
+                            class="form__item form__item_count_double">
+                      <option>Time</option>
+                      <option>18:00</option>
+                      <option>19:00</option>
+                      <option>20:00</option>
+                      <option>21:00</option>
+                    </select>
+                  </fieldset>
+                </div>
+                <fieldset class="form__handlers">
+                  <input type="submit"
+                         value="Book Now"
+                         class="button button_color_yellow form__button form__button_width_wide">
+                </fieldset>
+              </form>
+            </div>
+            <img src="./images/book-a-table-image.jpg" alt="Book a table" class="section__image">
+          </div>
+          <p class="section__info">Mon - Fri: <span class="section__span-accent">8PM - 10PM</span>, Sat - Sun: <span class="section__span-accent">8PM - 3AM</span>, Phone: +<span class="section__span-accent">40 729 131 637/</span>+<span class="section__span-accent">40 726 458 782</span></p>
+        </div>
+      </section>
+      <!-- End Section Book A Table -->
+      <!-- Section Specialties -->
+      <section class="specialties section section_color_white" id="galerie">
+        <div class="container">
+          <p class="section__subtitle">Specialties</p>
+          <div class="section__content section__content_reverse">
+            <div class="section__description section__description_margin_left">
+              <h2 class="section__title">Chocolate Pancakes</h2>
+              <p class="section__heading section__heading_color_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+              <p class="section__text section__text_color_white">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            </div>
+            <img src="./images/specialties-image.jpg" alt="Chocolate Pancakes" class="section__image">
+          </div>
+        </div>
+      </section>
+      <!-- End Section Specialties -->
+      <!-- Section Delicious Menu -->
+      <section class="section" id="menu">
+        <div class="container">
+          <div class="section__content">
+            <div class="section__description section__description_position_center">
+              <h2 class="section__title">Delicious Menu</h2>
+              <p class="section__heading section__heading_margin_bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+            </div>
+            <ul class="section__filters">
+              <li class="section__filter">Soupe</li>
+              <li class="section__filter">Pizza</li>
+              <li class="section__filter">Pasta</li>
+              <li class="section__filter">Desert</li>
+              <li class="section__filter">Wine</li>
+              <li class="section__filter">Beer</li>
+              <li class="section__filter">Drinks</li>
+            </ul>
+            <ul class="delicious-menu">
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+              <li class="delicious-menu__item">
+                <p class="delicious-menu__title">PIZZA QUATRO STAGIONI . . . . . .</p>
+                <p class="delicious-menu__price">55,68 USD</p>
+                <p class="delicious-menu__description">Integer ullamcorper neque eu purus euismod</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- End Section Delicious Menu -->
+      <!-- Section Private Events -->
+      <section class="private-events section section_color_white" id="events">
+        <div class="container">
+          <p class="section__subtitle">Private Events</p>
+          <div class="section__content section__content_align_center">
+            <div class="section__image-container section__image-container_margin_right">
+              <img src="./images/private-events-image-1.jpg" alt="Weddings" class="section__image">
+              <p class="section__image-label section__image-label_position_right">Weddings</p>
+            </div>
+            <div class="section__image-container">
+              <img src="./images/private-events-image-2.jpg" alt="Corporate Parties" class="section__image">
+              <p class="section__image-label section__image-label_position_left">Corporate Parties</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Section Private Events -->
+      <!-- Section Contact -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="section__content section__content_align_center">
+            <div class="section__description">
+              <h2 class="section__title">Contact</h2>
+              <p class="section__heading section__heading_margin_bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+            </div>
+            <form action="#" class="form form_width_wide">
+              <div class="form__main-container">
+                <fieldset class="form__input-container">
+                  <input type="text"
+                         name="name"
+                         placeholder="Name"
+                         class="form__item form__item_count_triple"
+                         autocomplete="off">
+                  <input type="email"
+                         name="email"
+                         placeholder="Email"
+                         class="form__item form__item_count_triple">
+                  <input type="tel"
+                         name="phone"
+                         placeholder="Phone"
+                         class="form__item form__item_count_triple">
+                  <textarea name="message"
+                            cols="30"
+                            rows="10"
+                            placeholder="Message"
+                            class="form__item form__item_el_message"></textarea>
+                </fieldset>
+                <fieldset class="form__handlers">
+                  <ul class="form__info">
+                    <li class="form__info-item"><span class="form__info-icon"><i class="fas fa-map-marker-alt"></i></span>5th London Boulevard, U.K.</li>
+                    <li class="form__info-item"><span class="form__info-icon"><i class="fas fa-phone"></i></span>+40 729 131 637/+40 726 458 782</li>
+                    <li class="form__info-item"><span class="form__info-icon"><i class="fas fa-envelope"></i></span>office@mindblister.com</li>
+                  </ul>
+                  <input type="submit"
+                         value="Send Message"
+                         class="button button_color_yellow form__button">
+                </fieldset>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- End Section Contact -->
+    </main>
+    <!-- End Main -->
+    <!-- Footer -->
+    <footer class="footer">© Copyright Mindblister 2019</footer>
+    <!-- End Footer -->
+  </div>
+  <script src="https://kit.fontawesome.com/187ecec49e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.menu__item {
+  min-width: 133px;
+  text-align: center;
+}
+
+.menu__link {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: inherit;
+  transition: color .3s;
+}
+
+.menu__link:hover {
+  color: #E8C300;
+}
+
+.menu__link_active {
+  color: #E8C300;
+}

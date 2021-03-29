@@ -1,0 +1,31 @@
+.button {
+  display: inline-block;
+  min-width: 200px;
+  padding: 22px 15px;
+  border: 1px solid rgb(255 255 255 / 0.5);
+  border-radius: 5px;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  transition: .3s;
+  transition-property: background-color, color;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(255 255 255 / 0.5);
+  color: #333;
+}
+
+.button_color_yellow {
+  background-color: #E8C300;
+  border-color: #E8C300;
+}
+
+.button_color_yellow:hover {
+  background-color: #bea008;
+  border-color: #bea008;
+  color: white;
+}
