@@ -14,3 +14,7 @@
 - Cкачай код
 - открой index.html в браузере
 
+## Фото проекта:
+![image](https://user-images.githubusercontent.com/70709823/112961876-73ba5500-914e-11eb-8bad-ae97647dc7e7.png)
+
+
