@@ -1,6 +1,6 @@
 # Проект HUNGRY PEOPLE
 
-[Проект на github-pages]()
+[Проект на github-pages](https://pavelbodrenkov.github.io/kitchen/)
 
 ## Технологии проекта:
 - HTML & CSS
